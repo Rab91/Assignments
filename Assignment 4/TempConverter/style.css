@@ -1,0 +1,11 @@
+body{
+    background-image: url("https://st5.depositphotos.com/75494502/66402/i/450/depositphotos_664027114-stock-photo-liquid-gradient-orange-blue-pink.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 25px;
+}
+h1{
+    color: #C70039;
+    text-align: center;
+}
