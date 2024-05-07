@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+body {
+    margin: 0px;
+    background-image: url("https://maven-uploads.s3.amazonaws.com/120386748/projects/netflix%20image.jpg");
+}
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#heading a {
+    text-decoration: none;
+    color: white;
+}
+#heading img {
+    width: 170px;
+}
+#heading button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+#heading button:hover {
+    background-color: rgba(255, 0, 0, 0.774);
+    cursor: pointer;
+}
+#main {
+    color: white;
+    height: 400px;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: auto;
+    width: 900px;
+}
+
+#p1 {
+    font-size: 20px;
+}
+#p2 {
+    font-size: 15px;
+}
+
+#fade {
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 100vh;
+}
+
+#emailform {
+}
+#email {
+    padding: 14px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    width: 300px;
+}
+#btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    margin-left: -4px;
+}
+
+#signin {
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px;
+    font-family: "Roboto";
+    gap: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+#signin h2 {
+    text-align: left;
+}
+
+#signin input {
+    background-color: rgba(128, 128, 128, 0.507);
+    outline: none;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+#signin button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+#signin button:hover {
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row p {
+    font-size: 14px;
+}
+.row label {
+    font-size: 14px;
+}
+#signup-main {
+    color: #ffff;
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 150px;
+}
+#signup-main p1 {
+    font-size: 25px;
+    font-family: Roboto;
+}
+#signup-main p {
+    font-size: 20px;
+}
+#signup {
+    display: flex;
+    font-family: "Roboto";
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    border-radius: 10px;
+}
+#signup input {
+    background-color: transparent;
+    padding: 20px;
+    width: 350px;
+    outline: none;
+    color: #ffff;
+    border: solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#signup input:focus ~label,input:valid ~ label{
+    top: 6px;
+    font-size: 12px;
+    outline: none;
+}
+#signup button {
+    width: 250px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 20px;
+}
+#signup button:hover {
+    cursor: pointer;
+}
+*.signup-icon {
+    color: #ffff;
+    padding-left: 13px;
+}
+#signup div{
+    position: relative;
+}
+#signup label{
+    position: absolute;
+    color: #c6c6c6;
+    font-size: 16px;
+    font-weight: normal;
+    pointer-events: none;
+    left: 15px;
+    top: 20px;
+    transition: 300ms ease all;
+}

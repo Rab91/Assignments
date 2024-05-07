@@ -1,0 +1,137 @@
+
+body{
+    background-image: url('../../images/background-pic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+#container{
+    display:flex;
+}
+#container .sidebar{
+    background-image: url('../../images/SideBackground-pic.png');
+    background-size: cover;
+    width: 300px;
+    height: 96vh;
+    border: 2px solid transparent;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+#container .main{
+    background-image: url('../../images/background-pic.png');
+    background-size: cover;
+    flex: 1;
+    padding: 40px;   
+}
+#container .main .main-head{
+    color: #63819B;
+    font: bold 34px Segoe UI;
+    letter-spacing: 2px;    
+}
+.sidebar img{
+    border-radius: 50%;
+    margin: 20px;
+}
+.sidebar p{
+    color: #8BA2BE;
+    font-size: 12px;   
+}
+.pro{
+    margin-top: -20px;
+}
+.main-sidebar{
+   margin-top: 30px;
+}
+.sidebar-row{ 
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+}
+.sidebar-row p{
+    color: #8BA2BE;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sideCard{
+    background-color:rgb(154,220,212);
+    padding: 20px;
+    border-radius: 25px;
+    height: 70px;
+    display: flex;
+    margin: 10px;
+}
+.sideCard p{
+    width: 40%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FFFF;
+    font-size: 18px;
+    margin-top: -8px;  
+}
+.sideCard img{
+  margin-top: -20px;  
+}
+
+h5{
+    color: #90A0B6;
+    font: bold 14px Helvetica;  
+    margin-top:-15px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transistion: 0.2s;
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #def8f5;
+}
+.card .row{
+    display: flex;
+    justify-content: space-between;
+}
+.card .row p{
+    color: #8DA2B7;
+    font-size: 14px;
+}
+.card .col{
+    flexDirection: column;
+    color: #B8CED6;
+}
+.card .col  p{
+    font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.card .card-title{
+    font: bold 20px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #8BA2BE;
+}
+.card .col .card-title p1{
+    font-size: 9px;
+}
+.bar{
+    height: 20px;
+    width:250px;
+    border-radius: 20px;
+    background-color:#91E7D2;
+}
+.main-bar{
+    height: 25px;
+    width:240px;
+    border-radius: 20px;
+    background-color:#def8f5;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+.percent{
+    font: bold 20px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
