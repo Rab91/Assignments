@@ -1,0 +1,41 @@
+body{
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-pink-creative-information-background-picture-image_924420.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: #7B0099;
+    margin: 20px;
+}
+#todoform{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px;
+    height: 300px;
+}
+#todoform label{
+    margin-left: 15px;
+}
+.todoinput{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #7B0099;
+    outline: none;
+}
+.todobutton{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #7B0099;
+    border: none;
+    color: #FFFF;
+}
+li{
+    line-height: 1.7;
+}
