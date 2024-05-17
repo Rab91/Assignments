@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html, body {
+    margin: 0; 
+    padding: 0;
+  }
+.background-img{
+    background-image: url('https://rachit-pal.github.io/Github-Profile-Searcher/resources/Background.jpg');
+   // height: 100vh;
+    
+}
+input{
+    width: 700px !important; 
+    height: 50px !important; 
+    border-radius: 10px !important;
+    background-color: #f5f5f59f !important;
+    border: none !important;
+}
+input:focus{
+    outline: none !important;
+}
+input::placeholder{
+    color: gray !important;
+    opacity: 0.5 !important;
+
+}
+.card{
+    background-color: red;
+}
