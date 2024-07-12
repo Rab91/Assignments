@@ -1,0 +1,9 @@
+71c80284b3e045498f13632741e40780
+
+another api key: be36b6d88b6a49c4a1bb7aa084492e56
+Features:
+!.Breaking news
+2.Top headlines
+3. Normal news
+
+business entertainment general health science sports technology
